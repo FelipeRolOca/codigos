@@ -6,16 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Felipe Roldan Ocampo">
     <meta name="description" content="Pagina de Informacion sobre batman">
+    <link rel="styleesheet" type="text/css" href="estilos.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>Baticueva</title>
 </head>
 
+
 <body>
     <header>
-        <!--titulo-->
-        <h1> <b> <strong> The Batman</strong> </b></h1>
+       
         <!--barra de navegacion-->
         <nav>
             <ul>
+
                 <li>
                     <a href="#quien-es"> Quien es </a>
                 </li>
@@ -31,25 +36,23 @@
 
             </ul>
         </nav>
-        <div>
-            <!-- imagen principal-->
-            <img src="./Img/1366_2000.jpg" alt="Foto de batman con su señal de fondo" height="400">
-           
-        </div>
+         <!--titulo-->
+        <h1>  The Batman </h1>
+
     </header>
     <main>
         <!-- seccion de quien es-->
              <section>
-                 <div id="quien-es">
-                     <div class="box">
+                 <div id="quien-es" class="div1">
                      <h2> Quien es el nuevo vigilante</h2>
                  <p>
                      las apariciones del nuevo vigilante 
                      son cada vez mas usuales, parece ser un profesional en lo que hace las personas le estan dando el
                      nombre de Batman. Parece no tener superpoderes: recurre a su intelecto, así como a aplicaciones científicas y tecnológicas para crear armas y herramientas con las cuales lleva a cabo sus actividades.
-                </p>
+                 </p>
+                 <p class="imglogo"><img src="./Img/7308.jpg" alt="logo" height="100px" > </p>
                  </div>
-                 <div>
+                 <div id="opiniones" class="div1">
                      <h2> ¿Que opinan la gente y las fuerzas policiales del nuevo vigilante ?</h2>
                      <img src="./Img/batman-comisario-gordon-2632833.webp" alt="Foto del comisario gordon" height="200">
                      <p>
@@ -62,7 +65,7 @@
              </section>           
               <!-- seccion de sus capacidades-->
              <section>                
-                 <div id="capacidades">
+                 <div id="capacidades" class="div2">
                      <h2> Capacidades fisicas y mentales </h2>
                      <ol>
                         <li>
@@ -86,40 +89,52 @@
                     </ol>
                  </div>
                  <!--seccion de artilugios-->
-                 <div id="artilugios">
+                 <div id="artilugios" class="div3">
                        <h2>Sus dispositivos y tecnologia</h2>
-                       <ul>
-                       <li>
-                     <h3> Batiboomerang</h3>
+                       <ul id="ul-artilugios">
+                       <li class="li-artilugios">
+                     <h4> Batiboomerang</h4>
                      <img src="./Img/batarang.jpg" alt="un batarang con forma de murcielago" height="100">
                      <h4> objeto arrojadizo</h4>
                         </li>
-                        <li>
+                        <li class="li-artilugios">
                             <h4> Perdigón de humo<h4>
                             <img src="./Img/250px-Batman_Arkham_Wtech_09.jpg" alt="pequeños contenedores circulares de humo" height="100">
-                            <p> una capa de humo rodeara al vigilante apenas este pequeño sea liberado </p>
+                            <p> esta esfera emitira una capa de humo </p>
                                </li>
+                               <li class="li-artilugios">
                                <h4> Bat-garra</h4>
                             <img src="./Img/eb771d436adb82007f0d23ac35832984.jpg" alt="un gancho con forma de murcielago" height="100">
-                            <p> un pequeño gancho que le permitira moverse por la ciudad </p>
+                            <h4> un pequeño gancho que le permitira moverse por la ciudad </h4>
                                </li>
                  </div>
              </section>
 
     </main>
     <footer>
+        <section>
         <!-- como contactarse-->
-        <div id="contactos">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.683423258809!2d-73.96614073514338!3d40.78307220473319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589b1d93614d%3A0xfb2139d875e1e91f!2sNYPD%20Central%20Park%20Precinct!5e0!3m2!1ses-419!2sar!4v1652622138175!5m2!1ses-419!2sar" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="contactos" class="div4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.683423258809!2d-73.96614073514338!3d40.78307220473319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589b1d93614d%3A0xfb2139d875e1e91f!2sNYPD%20Central%20Park%20Precinct!5e0!3m2!1ses-419!2sar!4v1652622138175!5m2!1ses-419!2sar" height="390" width="660" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
+        <div class="div4">
             <p><img src="./Img/485d3490861e058d4af3c69c7f41eb2d.jpg" alt="signo de pregunta" height="15">   si tienes dudas o informacion sobre nuestro nuevo protector
                 puedes contactarte con nuestra comisaria </p>
                 <p><img src="./Img/57158662-icono-de-correo-electrónico.webp" alt="icono correo" height="15">   comisariadegotham@gmail.com </p>
                 <p><img src="./Img/png-clipart-location-icon-landmark-map.png" alt="icono ubicacion" height="15" width="20"> acercate a nostros en nuestra
                     comisaria mas cercana y quitate las dudas</p>
-        </div>
 
+            <form action="" method="get" name="contacto">
+                <h2>enviar archivos relacionados al muercielago</h2>
+                <p> su nombre</p>
+                <input type="text" name="nombre" autocomplete="additional-name" required placeholder="nombre...">
+                <p> archivo </p>
+                <input type="file" name="informacion">
+                <p></p>
+                <input type="button" name="enviar" value="enviar" id="enviar">
+            </form>              
+        </div>
+        </section>
     </footer>
 </body>
 
