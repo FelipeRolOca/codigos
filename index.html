@@ -18,39 +18,49 @@ header {
     background-repeat: no-repeat;    
     background-image: url(./Img/7317.jpg);
     background-position: center; 
-    height: 200px;       
+    position: fixed;
+    top: 0px;
+    height: 30%;   
+    width: 100%;    
     text-align: center;
-    width: 1328px;
     border-bottom: solid yellow ;
-    
 }
+
 header ul {
     list-style-type: none
 }
 header ul li {
     display: inline-block
 }
+section {
+    display: block;
+    
+}
 div {
-    display: inline-block;
-    width: 663px;
-    border-right: solid yellow;
-    border-bottom: solid yellow;
+    display: flexbox;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     float: left;
+    
 }
 .div1{
-    height: 375px;
+    margin-top: 190px;
+    height: 100%;
+    width: 50%;
 }
 .div2 {
-    height: 400px;
-    width: 400px;
+    height: 90%;
+    width: 30%;
 }
-.div3 {
-    height: 400px;
-    width: 926px;
+.div3 {    
+    width:70%;
+    height: 100%;
+    margin-bottom: 10%;
 
 }
 .div4 {
-    height: 400px;
+    
+    position: left;
 }
 #opiniones {
     text-align: center;
@@ -89,7 +99,6 @@ h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ol {
-    list-style: ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
@@ -100,16 +109,16 @@ ol {
 }
 .li-artilugios {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   width: 100px;
+   width: 33%;
+   height: 50%;
 }
 #ul-artilugios {
-    width: 800px ;
-    max-height: 700px;
+    width: 90% ;
+    min-height: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap ;
     list-style: none;
-
   
 }
 .imglogo {
@@ -117,8 +126,13 @@ ol {
    text-align: center;
 }
 iframe {
-    align-items: center;
+    min-height: 60vh;
+    width: 60vh;
+    margin-left: 10%;
 }
+
+
+
 </style>
 
 
@@ -218,14 +232,10 @@ iframe {
                  </div>
              </section>
 
-    </main>
-    <footer>
-        <section>
+    
+    <section>
         <!-- como contactarse-->
-        <div id="contactos" class="div4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.683423258809!2d-73.96614073514338!3d40.78307220473319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589b1d93614d%3A0xfb2139d875e1e91f!2sNYPD%20Central%20Park%20Precinct!5e0!3m2!1ses-419!2sar!4v1652622138175!5m2!1ses-419!2sar" height="390" width="660" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="div4">
+        <div class="div4" id="contactos">
             <p><img src="./Img/485d3490861e058d4af3c69c7f41eb2d.jpg" alt="signo de pregunta" height="15">   si tienes dudas o informacion sobre nuestro nuevo protector
                 puedes contactarte con nuestra comisaria </p>
                 <p><img src="./Img/57158662-icono-de-correo-electrónico.webp" alt="icono correo" height="15">   comisariadegotham@gmail.com </p>
@@ -242,8 +252,9 @@ iframe {
                 <input type="button" name="enviar" value="enviar" id="enviar">
             </form>              
         </div>
-        </section>
-    </footer>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.683423258809!2d-73.96614073514338!3d40.78307220473319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589b1d93614d%3A0xfb2139d875e1e91f!2sNYPD%20Central%20Park%20Precinct!5e0!3m2!1ses-419!2sar!4v1652622138175!5m2!1ses-419!2sar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    </main>
 </body>
 
 </html>
